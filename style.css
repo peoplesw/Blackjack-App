@@ -1,0 +1,102 @@
+body {
+    background-image: url('/blackjack_assets/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Main Container */
+.main-container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+}
+
+/* Flex - Rows 1, 2, 3 */
+.flex-blackjack-row-1 {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url('blackjack_assets/images/tableBackground.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.flex-blackjack-row-2 {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('blackjack_assets/images/tableBackground.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-blackjack-row-3 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+/* Your Box and Dealer Box */
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex-basis: 50%;
+}
+
+/* Score Table */
+table {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.table-div, table {
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.th-1, .th-2, .td-1, .td-2 {
+    border-right: 1px solid black;
+}
+
+.th-1, .th-2, .th-3 {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* Buttons and Button-Div*/
+.flex-blackjack-row-2 div {
+    padding: 10px;
+}
+
+#blackjack-hit-button {
+    padding: 10px;
+}
+
+#blackjack-stand-button {
+    padding: 10px;
+}
+
+#blackjack-deal-button {
+    padding: 10px;
+}
+

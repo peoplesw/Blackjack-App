@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Blackjack</h1>
+        <h3><span id="blackjack-result">Let's play!</span></h3>
+        
+        <!-- Flex-Row 1 -->
+        <div class="flex-blackjack-row-1">
+                <!-- Your Box -->
+            <div class="your-box">
+                <h2>You: <span id="your-blackjack-result">0</span></h2>
+            </div>
+                <!-- Dealer's Box -->
+            <div class="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>    
+        
+        <!-- Flex-Row 2 -->
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button id="blackjack-hit-button" class="btn btn-primary btn-lg mr-2">Hit</button>
+                <button id="blackjack-stand-button" class="btn btn-warning btn-lg mr-2">Stand</button>
+                <button id="blackjack-deal-button" class="btn btn-danger btn-lg">Deal</button>
+            </div>
+        </div>
+        
+        <!-- Flex-Row 3 -->
+        <div class="flex-blackjack-row-3">
+            <!-- Wins, Losses, Draws Table -->
+            <div class="table-div">
+                <table>
+                    <!-- Row 1 -->
+                    <tr>
+                        <th class="th-1">Wins</th>
+                        <th class="th-2">Losses</th>
+                        <th class="th-3">Draws</th>
+                    </tr>
+                    <!-- Row 2 -->
+                    <tr>
+                        <td class="td-1"><span id="wins">0</span></td>
+                        <td class="td-2"><span id="losses">0</span></td>
+                        <td class="td-3"><span id="draws">0</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
