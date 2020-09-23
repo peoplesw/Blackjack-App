@@ -2,6 +2,9 @@ body {
     background-image: url('/blackjack_assets/images/background.jpg');
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main Container */
@@ -11,8 +14,8 @@ body {
     border-radius: 10px;
     overflow: hidden;
     width: 75%;
-    margin: 20px auto;
-    text-align: center;
+    margin: auto;
+    text-align: center; /* text-align is an inherited property that will affect every element in this container div and all of its nested divs. */ 
     color: black;
 }
 
@@ -28,6 +31,11 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%; 
+    padding: 10px;
 }
 
 .flex-blackjack-row-2 {
@@ -55,7 +63,7 @@ body {
     border: 1px solid black;
     padding: 10px;
     height: 350px;
-    flex-basis: 50%;
+    flex: 1;
 }
 
 /* Score Table */
