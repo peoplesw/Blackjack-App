@@ -21,7 +21,6 @@ body {
 
 /* Flex - Rows 1, 2, 3 */
 .flex-blackjack-row-1 {
-    border: 1px solid black;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -39,7 +38,6 @@ body {
 }
 
 .flex-blackjack-row-2 {
-    border: 1px solid black;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -60,7 +58,6 @@ body {
 
 /* Your Box and Dealer Box */
 .flex-blackjack-row-1 div {
-    border: 1px solid black;
     padding: 10px;
     height: 350px;
     flex-basis: 50%;
