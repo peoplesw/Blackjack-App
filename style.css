@@ -70,7 +70,6 @@ body {
 table {
     background-color: white;
     color: black;
-    text-align: center;
 }
 
 .table-div, table {
@@ -89,6 +88,10 @@ table {
 
 th, td {
     padding: 5px;
+}
+
+th {
+    text-align: center;
 }
 
 /* Buttons and Button-Div*/
