@@ -63,7 +63,7 @@ body {
     border: 1px solid black;
     padding: 10px;
     height: 350px;
-    flex: 1;
+    flex-basis: 50%;
 }
 
 /* Score Table */
